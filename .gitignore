@@ -1,0 +1,14 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+#My client_id for Google Calendar API
+client_id.json
+
+#User sensitive information
+token.json
+credential.json
+
+#Virtual environment
+.venv
