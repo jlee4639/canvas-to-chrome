@@ -5,12 +5,12 @@ Objective:
 """
 
 from flask import Flask, request, render_template
+from config import Config
 
-"""
+app = Flask(__name__)
+app.config.from_object(Config)
 
-"""
-def init_app():
-    app = Flask(__name__)
+from flask_app import routes
 
 
 

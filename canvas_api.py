@@ -6,7 +6,7 @@ discussions, and quizzes and imports it to Google Calendar
 """
 
 import requests
-from flask import Flask, request as f_request
+from datetime import datetime, timezone
 
 class CanvasAPI:
     def __init__(self, access_token = None, base_url = None):
@@ -15,7 +15,7 @@ class CanvasAPI:
             raise ValueError("No access token was provided")
         
         #Need to have canvas url to get data from Canvas
-        if not access_token:
+        if not base_url:
             raise ValueError("No Canvas URL")
         
         self._access_token = access_token
@@ -28,30 +28,38 @@ class CanvasAPI:
 
         #Meta data about current user courses, assignments, quizzes, and discussions
         self._current_courses = [] #List of user's current course
-        self._current_assignments = [] #List of tuples with ([course_name, course_code], course_assignment_list)
-        self._current_quizzes = []
-        self._current_discussions = []
+        self._current_assignments = [] #Lists all of the user's graded assignments
 
 
     """
     This helper function is used to send a HTTP request to the Canvas API. endpoint param
     is the specific end url to get the API data (courses or assignments). params param is
-    used to specify the data you want from the API. The function returns a json file of the
-    data requested front he specified endpoint.
+    used to specify the data you want from the API. The function returns an array of json 
+    files of the data requested front he specified endpoint.
     """
     def _get_request(self, endpoint, params = None):
-        #Send HTTP get request to Canvas API
-        response = requests.get(
-            f"{self._base_url}/api/v1/{endpoint}",
-            params = params,
-            headers = self._headers
-        )
+        url = f"{self._base_url}/api/v1/{endpoint}"
+        data = []
 
-        #Check for errors in the request
-        if response.status_code != 200:
-            raise Exception(f"Failed to get Canvas Course ID: {response.status_code}. Error Reason: {response.reason}")
+        #Loop through every page in url
+        while url:
+            #Send HTTP get request to Canvas API
+            response = requests.get(
+                url,
+                params = params,
+                headers = self._headers
+            )
 
-        return response.json()
+            #Check for errors in the request
+            if response.status_code != 200:
+                raise Exception(f"Failed to get Canvas Course ID: {response.status_code}. Error Reason: {response.reason}")
+
+            data.extend(response.json())
+
+            url = response.links.get("next", {}).get('url')       
+            params = None
+
+        return data
 
 
     """
@@ -61,7 +69,7 @@ class CanvasAPI:
     will not be used. isFavorite argument is used to filter favorited courses. True is
     only use favorited classes and false is favorited classes doesn't matter
     """
-    def _get_course_id(self, term, isFavorite):
+    def get_course_id(self, term, isFavorite):
         #Get user courses information
         courses = self._get_request(
             "courses",
@@ -75,6 +83,7 @@ class CanvasAPI:
         filtered_courses = []
 
         #Filter out courses by term and favorites
+        
         for course in courses:
             add = True
 
@@ -89,44 +98,42 @@ class CanvasAPI:
             #Add if course matches params
             if add:
                 filtered_courses.append(course)
-
+        
         self._current_courses = filtered_courses
+        
 
         return filtered_courses
 
 
     """
-    This function gets the calendar events from the Canvas Instructure API, taking in the
-    starting and ending date for all events from Canvas
+    This function gets the user's course assignments from the Canvas Instructure API, retreiving info including
+    assignment name, course name, assignment id, and start and end date. Returns a list of dicts used to add events
+    into the FullCalendar implementation
     """
-    def _get_assignments(self):
+    def get_assignments(self):
         #Loop through each course in _current_courses
         for course in self._current_courses:
             print(course["id"])
             assignments  = self._get_request(
-                f"courses/{course["id"]}/assignments",
+                f"courses/{course['id']}/assignments",
                 params = {
                     "per_page": 100
                 }
             )
-            
-            #Hold all assignments in current course
-            current_course_assignments = []
 
             #Get course name, title, due date, and description for each assignment
+            #Name matches event object for FullCalendar.io import
             for assignment in assignments:
                 assign_date = {
-                    "name": assignment.get("name"),
+                    "title": assignment.get("name"),
+                    "groupId": course["name"],
                     "id": assignment.get("id"),
-                    "due_at": assignment.get("due_at"),
+                    #Set to datetime.now(timezone.utc).isoformat()
+                    "start": "2025-01-12T00:00:00Z",
+                    "end": assignment.get("due_at"),
                 }
 
                 #Holds all data for course assignments
-                current_course_assignments.append(assign_date)
-
-            #Holds tuple of course name and that course's assignments
-            self._current_assignments.append(([course["name"], course["course_code"]], current_course_assignments))
+                self._current_assignments.append(assign_date)
 
         return self._current_assignments
-            
-            
