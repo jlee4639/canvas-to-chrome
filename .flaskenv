@@ -2,4 +2,4 @@
 FLASK_APP=run.py
 
 #Set debug mode
-DEBUG=1
+FLASK_DEBUG=1

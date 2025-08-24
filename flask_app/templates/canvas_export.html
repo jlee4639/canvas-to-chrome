@@ -1,0 +1,53 @@
+{% extends "base.html"%}
+
+{% block content %}
+<div class="export_container">
+    <header>
+        <h1 class="heading">Export Your Canvas Assignments</h1>
+    </header>
+
+    <div class="content_area">
+<!--  Check if canvas_assignments was retrieved -->
+{% if canvas_assignments %}
+    <div id="assignments_dated" data-info='{{ canvas_assignments[0]|tojson }}'></div>
+    <div id="assignments_undated" data-info='{{ canvas_assignments[1]|tojson }}'></div>
+    
+    <!-- Make sure to make it so that you cant export until user has imported. Make button unclickable-->
+    <form action="" method="post" enctype="multipart/form-data" novalidate id="export_form">
+        {{export_form.hidden_tag()}}
+        <p>
+            {{ export_form.calendar_id.label }}
+            {{ export_form.calendar_id(size="80", class="form_input", placeholder="ex. abcd1234efgh5678ijkl9012mnop3456@group.calendar.google.com, youremail@gmail.com, etc...") }}
+            {% for error in export_form.calendar_id.errors %}
+            <span style="color: red;">[{{ error }}]</span>
+            {% endfor %}
+        </p>
+
+        <p>
+            {{ export_form.service_account_key.label }}
+            {{ export_form.service_account_key(class="form_input")}}
+            {% for error in export_form.calendar_id.errors %}
+            <span style="color: red;">[{{ error }}]</span>
+            {% endfor %}
+        </p>
+
+        <!-- Retrieve Fullcalendar.io events -->
+        <p>
+            {{ export_form.fullcalendar_events }}
+        </p>
+
+        <p>
+            {{ export_form.submit() }}
+        </p>
+    </form>
+
+    <div id='calendar'></div>
+    <!-- Import FullCalendar to visualize and manipulate Canvas Calendar.-->
+    <script src='https://cdn.jsdelivr.net/npm/fullcalendar@6.1.19/index.global.min.js'></script>
+    <script src="{{url_for('static', filename='calendar.js')}}" defer></script>
+<!-- Redirect users back to the homepage -->
+{% else %}
+    <h1>No user information was obtained, return back to <a href="{{url_for('index')}}">homepage</a></h1>
+{% endif %}
+</div>
+{% endblock %}

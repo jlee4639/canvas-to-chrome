@@ -1,0 +1,948 @@
+[
+    {
+        "title": "Admission Ticket 00: Syllabus",
+        "groupId": "AOSC200: Weather and Climate (Spr 25)",
+        "id": 6980365,
+        "start": "2025-02-03T04:59:58Z",
+        "end": "2025-02-03T04:59:59Z",
+        "backgroundColor": "#a4bdfc",
+        "extendedProps": {
+            "colorId": 1
+        }
+    },
+    {
+        "title": "Admission Ticket 01: Chap 2 Pgs 30-42",
+        "groupId": "AOSC200: Weather and Climate (Spr 25)",
+        "id": 6980348,
+        "start": "2025-02-06T18:59:59Z",
+        "end": "2025-02-06T19:00:00Z",
+        "backgroundColor": "#a4bdfc",
+        "extendedProps": {
+            "colorId": 1
+        }
+    },
+    {
+        "title": "Admission Ticket 02: Chap 3 ",
+        "groupId": "AOSC200: Weather and Climate (Spr 25)",
+        "id": 6980344,
+        "start": "2025-02-13T18:59:59Z",
+        "end": "2025-02-13T19:00:00Z",
+        "backgroundColor": "#a4bdfc",
+        "extendedProps": {
+            "colorId": 1
+        }
+    },
+    {
+        "title": "Admission Ticket 03: Chap 4 Pgs 59-71",
+        "groupId": "AOSC200: Weather and Climate (Spr 25)",
+        "id": 6980351,
+        "start": "2025-02-18T18:59:59Z",
+        "end": "2025-02-18T19:00:00Z",
+        "backgroundColor": "#a4bdfc",
+        "extendedProps": {
+            "colorId": 1
+        }
+    },
+    {
+        "title": "Admission Ticket 04: Chap 4 Pgs 73-81",
+        "groupId": "AOSC200: Weather and Climate (Spr 25)",
+        "id": 6980352,
+        "start": "2025-02-20T18:59:59Z",
+        "end": "2025-02-20T19:00:00Z",
+        "backgroundColor": "#a4bdfc",
+        "extendedProps": {
+            "colorId": 1
+        }
+    },
+    {
+        "title": "Admission Ticket 07: Chap 6 Pgs 99-111",
+        "groupId": "AOSC200: Weather and Climate (Spr 25)",
+        "id": 6980342,
+        "start": "2025-03-26T03:58:59Z",
+        "end": "2025-03-26T03:59:00Z",
+        "backgroundColor": "#a4bdfc",
+        "extendedProps": {
+            "colorId": 1
+        }
+    },
+    {
+        "title": "Admission Ticket 08: Chap 6 Pgs  111-129",
+        "groupId": "AOSC200: Weather and Climate (Spr 25)",
+        "id": 6980341,
+        "start": "2025-03-27T17:59:59Z",
+        "end": "2025-03-27T18:00:00Z",
+        "backgroundColor": "#a4bdfc",
+        "extendedProps": {
+            "colorId": 1
+        }
+    },
+    {
+        "title": "Admission Ticket 09: Chap 8.6-8.9 Pgs 149-159",
+        "groupId": "AOSC200: Weather and Climate (Spr 25)",
+        "id": 6980338,
+        "start": "2025-04-01T17:59:59Z",
+        "end": "2025-04-01T18:00:00Z",
+        "backgroundColor": "#a4bdfc",
+        "extendedProps": {
+            "colorId": 1
+        }
+    },
+    {
+        "title": "Admission Ticket 10: Chap 10.1-10.2 Pgs 186-190",
+        "groupId": "AOSC200: Weather and Climate (Spr 25)",
+        "id": 6980343,
+        "start": "2025-04-08T17:59:59Z",
+        "end": "2025-04-08T18:00:00Z",
+        "backgroundColor": "#a4bdfc",
+        "extendedProps": {
+            "colorId": 1
+        }
+    },
+    {
+        "title": "Admission Ticket 11: Chap 10.3 Pgs 191-205",
+        "groupId": "AOSC200: Weather and Climate (Spr 25)",
+        "id": 6980350,
+        "start": "2025-04-10T17:59:59Z",
+        "end": "2025-04-10T18:00:00Z",
+        "backgroundColor": "#a4bdfc",
+        "extendedProps": {
+            "colorId": 1
+        }
+    },
+    {
+        "title": "Admission Ticket 12: Chap 11-11.3 Pgs 209-213",
+        "groupId": "AOSC200: Weather and Climate (Spr 25)",
+        "id": 6980349,
+        "start": "2025-04-17T17:59:59Z",
+        "end": "2025-04-17T18:00:00Z",
+        "backgroundColor": "#a4bdfc",
+        "extendedProps": {
+            "colorId": 1
+        }
+    },
+    {
+        "title": "Admission Ticket 13: Chap 11.4-11.5.3 Pgs 215-224",
+        "groupId": "AOSC200: Weather and Climate (Spr 25)",
+        "id": 6980339,
+        "start": "2025-04-24T17:59:59Z",
+        "end": "2025-04-24T18:00:00Z",
+        "backgroundColor": "#a4bdfc",
+        "extendedProps": {
+            "colorId": 1
+        }
+    },
+    {
+        "title": "Admission Ticket 14: Chap 12",
+        "groupId": "AOSC200: Weather and Climate (Spr 25)",
+        "id": 6980347,
+        "start": "2025-04-29T17:59:59Z",
+        "end": "2025-04-29T18:00:00Z",
+        "backgroundColor": "#a4bdfc",
+        "extendedProps": {
+            "colorId": 1
+        }
+    },
+    {
+        "title": "Weekly Activity: Introduction Discussion Board",
+        "groupId": "AOSC200: Weather and Climate (Spr 25)",
+        "id": 6980363,
+        "start": "2025-02-08T04:58:59Z",
+        "end": "2025-02-08T04:59:00Z",
+        "backgroundColor": "#a4bdfc",
+        "extendedProps": {
+            "colorId": 1
+        }
+    },
+    {
+        "title": "Weekly Activity: Extreme Weather",
+        "groupId": "AOSC200: Weather and Climate (Spr 25)",
+        "id": 6980362,
+        "start": "2025-02-10T04:58:59Z",
+        "end": "2025-02-10T04:59:00Z",
+        "backgroundColor": "#a4bdfc",
+        "extendedProps": {
+            "colorId": 1
+        }
+    },
+    {
+        "title": "Weekly Activity: 3-2-1",
+        "groupId": "AOSC200: Weather and Climate (Spr 25)",
+        "id": 6980361,
+        "start": "2025-02-17T04:58:59Z",
+        "end": "2025-02-17T04:59:00Z",
+        "backgroundColor": "#a4bdfc",
+        "extendedProps": {
+            "colorId": 1
+        }
+    },
+    {
+        "title": "Weekly Activity: Test 1 Question",
+        "groupId": "AOSC200: Weather and Climate (Spr 25)",
+        "id": 6980356,
+        "start": "2025-02-24T04:58:59Z",
+        "end": "2025-02-24T04:59:00Z",
+        "backgroundColor": "#a4bdfc",
+        "extendedProps": {
+            "colorId": 1
+        }
+    },
+    {
+        "title": "Weekly Activity: 3-2-1",
+        "groupId": "AOSC200: Weather and Climate (Spr 25)",
+        "id": 6980355,
+        "start": "2025-03-17T03:58:59Z",
+        "end": "2025-03-17T03:59:00Z",
+        "backgroundColor": "#a4bdfc",
+        "extendedProps": {
+            "colorId": 1
+        }
+    },
+    {
+        "title": "Weekly Activity: Test 2 Question",
+        "groupId": "AOSC200: Weather and Climate (Spr 25)",
+        "id": 6980358,
+        "start": "2025-03-31T03:58:59Z",
+        "end": "2025-03-31T03:59:00Z",
+        "backgroundColor": "#a4bdfc",
+        "extendedProps": {
+            "colorId": 1
+        }
+    },
+    {
+        "title": "Weekly Activity: 3-2-1",
+        "groupId": "AOSC200: Weather and Climate (Spr 25)",
+        "id": 6980353,
+        "start": "2025-05-05T03:58:59Z",
+        "end": "2025-05-05T03:59:00Z",
+        "backgroundColor": "#a4bdfc",
+        "extendedProps": {
+            "colorId": 1
+        }
+    },
+    {
+        "title": "Weekly Activity: Test 3 Question ",
+        "groupId": "AOSC200: Weather and Climate (Spr 25)",
+        "id": 6980354,
+        "start": "2025-05-12T03:58:59Z",
+        "end": "2025-05-12T03:59:00Z",
+        "backgroundColor": "#a4bdfc",
+        "extendedProps": {
+            "colorId": 1
+        }
+    },
+    {
+        "title": "Intro to AI (Discussion Activity)",
+        "groupId": "AOSC200: Weather and Climate (Spr 25)",
+        "id": 6980367,
+        "start": "2025-02-08T04:58:59Z",
+        "end": "2025-02-08T04:59:00Z",
+        "backgroundColor": "#a4bdfc",
+        "extendedProps": {
+            "colorId": 1
+        }
+    },
+    {
+        "title": "Project 1 - Week 3 Forecast, Tues/Thurs",
+        "groupId": "AOSC200: Weather and Climate (Spr 25)",
+        "id": 7118964,
+        "start": "2025-02-11T04:58:59Z",
+        "end": "2025-02-11T04:59:00Z",
+        "backgroundColor": "#a4bdfc",
+        "extendedProps": {
+            "colorId": 1
+        }
+    },
+    {
+        "title": "Project 1 - Week 3 Forecast, 2nd Thursday ",
+        "groupId": "AOSC200: Weather and Climate (Spr 25)",
+        "id": 7118965,
+        "start": "2025-02-13T04:58:59Z",
+        "end": "2025-02-13T04:59:00Z",
+        "backgroundColor": "#a4bdfc",
+        "extendedProps": {
+            "colorId": 1
+        }
+    },
+    {
+        "title": "Project 1 - Forecast Type Assignment",
+        "groupId": "AOSC200: Weather and Climate (Spr 25)",
+        "id": 7118996,
+        "start": "2025-02-15T04:58:59Z",
+        "end": "2025-02-15T04:59:00Z",
+        "backgroundColor": "#a4bdfc",
+        "extendedProps": {
+            "colorId": 1
+        }
+    },
+    {
+        "title": "Project 1 - Week 4 Forecast, Tues/Thurs",
+        "groupId": "AOSC200: Weather and Climate (Spr 25)",
+        "id": 7118966,
+        "start": "2025-02-18T04:58:59Z",
+        "end": "2025-02-18T04:59:00Z",
+        "backgroundColor": "#a4bdfc",
+        "extendedProps": {
+            "colorId": 1
+        }
+    },
+    {
+        "title": "Project 1 - Week 4 Forecast, 2nd Thursday",
+        "groupId": "AOSC200: Weather and Climate (Spr 25)",
+        "id": 7118969,
+        "start": "2025-02-20T04:58:59Z",
+        "end": "2025-02-20T04:59:00Z",
+        "backgroundColor": "#a4bdfc",
+        "extendedProps": {
+            "colorId": 1
+        }
+    },
+    {
+        "title": "Project 1 - Weather vs. Climate Discussion Activity",
+        "groupId": "AOSC200: Weather and Climate (Spr 25)",
+        "id": 7119000,
+        "start": "2025-02-21T17:59:59Z",
+        "end": "2025-02-21T18:00:00Z",
+        "backgroundColor": "#a4bdfc",
+        "extendedProps": {
+            "colorId": 1
+        }
+    },
+    {
+        "title": "Project 1 - Forecast Accuracy Discussion Activity",
+        "groupId": "AOSC200: Weather and Climate (Spr 25)",
+        "id": 7119005,
+        "start": "2025-03-08T04:58:59Z",
+        "end": "2025-03-08T04:59:00Z",
+        "backgroundColor": "#a4bdfc",
+        "extendedProps": {
+            "colorId": 1
+        }
+    },
+    {
+        "title": "Project 1 - Final Paper",
+        "groupId": "AOSC200: Weather and Climate (Spr 25)",
+        "id": 6980378,
+        "start": "2025-03-01T04:58:59Z",
+        "end": "2025-03-01T04:59:00Z",
+        "backgroundColor": "#a4bdfc",
+        "extendedProps": {
+            "colorId": 1
+        }
+    },
+    {
+        "title": "Week 7 - Memes and Misinformation Discussion Activity",
+        "groupId": "AOSC200: Weather and Climate (Spr 25)",
+        "id": 7142283,
+        "start": "2025-03-15T03:29:59Z",
+        "end": "2025-03-15T03:30:00Z",
+        "backgroundColor": "#a4bdfc",
+        "extendedProps": {
+            "colorId": 1
+        }
+    },
+    {
+        "title": "Project 2 - Group Contract",
+        "groupId": "AOSC200: Weather and Climate (Spr 25)",
+        "id": 7148432,
+        "start": "2025-03-28T17:29:59Z",
+        "end": "2025-03-28T17:30:00Z",
+        "backgroundColor": "#a4bdfc",
+        "extendedProps": {
+            "colorId": 1
+        }
+    },
+    {
+        "title": "Project 2 - Group Contract Addendum",
+        "groupId": "AOSC200: Weather and Climate (Spr 25)",
+        "id": 7153176,
+        "start": "2025-04-05T03:29:59Z",
+        "end": "2025-04-05T03:30:00Z",
+        "backgroundColor": "#a4bdfc",
+        "extendedProps": {
+            "colorId": 1
+        }
+    },
+    {
+        "title": "Project 2 - Group Presentation",
+        "groupId": "AOSC200: Weather and Climate (Spr 25)",
+        "id": 7153337,
+        "start": "2025-04-11T03:58:59Z",
+        "end": "2025-04-11T03:59:00Z",
+        "backgroundColor": "#a4bdfc",
+        "extendedProps": {
+            "colorId": 1
+        }
+    },
+    {
+        "title": "Project 2 - Weather Accuracy in your Media",
+        "groupId": "AOSC200: Weather and Climate (Spr 25)",
+        "id": 7153326,
+        "start": "2025-04-05T03:29:59Z",
+        "end": "2025-04-05T03:30:00Z",
+        "backgroundColor": "#a4bdfc",
+        "extendedProps": {
+            "colorId": 1
+        }
+    },
+    {
+        "title": "Project 2 - Peer Review",
+        "groupId": "AOSC200: Weather and Climate (Spr 25)",
+        "id": 7153657,
+        "start": "2025-04-15T03:58:59Z",
+        "end": "2025-04-15T03:59:00Z",
+        "backgroundColor": "#a4bdfc",
+        "extendedProps": {
+            "colorId": 1
+        }
+    },
+    {
+        "title": "Project 2 - Audience Responses",
+        "groupId": "AOSC200: Weather and Climate (Spr 25)",
+        "id": 7153515,
+        "start": "2025-04-11T16:59:59Z",
+        "end": "2025-04-11T17:00:00Z",
+        "backgroundColor": "#a4bdfc",
+        "extendedProps": {
+            "colorId": 1
+        }
+    },
+    {
+        "title": "Project 3 Week 1 - Brainstorming Session",
+        "groupId": "AOSC200: Weather and Climate (Spr 25)",
+        "id": 7161146,
+        "start": "2025-04-18T16:59:59Z",
+        "end": "2025-04-18T17:00:00Z",
+        "backgroundColor": "#a4bdfc",
+        "extendedProps": {
+            "colorId": 1
+        }
+    },
+    {
+        "title": "Project 3 Week 2 - Fact Sheet First Draft",
+        "groupId": "AOSC200: Weather and Climate (Spr 25)",
+        "id": 7161154,
+        "start": "2025-04-25T03:58:59Z",
+        "end": "2025-04-25T03:59:00Z",
+        "backgroundColor": "#a4bdfc",
+        "extendedProps": {
+            "colorId": 1
+        }
+    },
+    {
+        "title": "Project 3 Week 2 - Peer Review Comments",
+        "groupId": "AOSC200: Weather and Climate (Spr 25)",
+        "id": 7161155,
+        "start": "2025-04-26T03:58:59Z",
+        "end": "2025-04-26T03:59:00Z",
+        "backgroundColor": "#a4bdfc",
+        "extendedProps": {
+            "colorId": 1
+        }
+    },
+    {
+        "title": "Project 3 - Final Fact Sheet",
+        "groupId": "AOSC200: Weather and Climate (Spr 25)",
+        "id": 7161156,
+        "start": "2025-05-02T03:58:59Z",
+        "end": "2025-05-02T03:59:00Z",
+        "backgroundColor": "#a4bdfc",
+        "extendedProps": {
+            "colorId": 1
+        }
+    },
+    {
+        "title": "Test 1",
+        "groupId": "AOSC200: Weather and Climate (Spr 25)",
+        "id": 6980383,
+        "start": "2025-03-04T05:29:59Z",
+        "end": "2025-03-04T05:30:00Z",
+        "backgroundColor": "#a4bdfc",
+        "extendedProps": {
+            "colorId": 1
+        }
+    },
+    {
+        "title": "Test 2",
+        "groupId": "AOSC200: Weather and Climate (Spr 25)",
+        "id": 6980384,
+        "start": "2025-04-03T16:29:59Z",
+        "end": "2025-04-03T16:30:00Z",
+        "backgroundColor": "#a4bdfc",
+        "extendedProps": {
+            "colorId": 1
+        }
+    },
+    {
+        "title": "Test 3",
+        "groupId": "AOSC200: Weather and Climate (Spr 25)",
+        "id": 6980385,
+        "start": "2025-05-13T16:29:59Z",
+        "end": "2025-05-13T16:30:00Z",
+        "backgroundColor": "#a4bdfc",
+        "extendedProps": {
+            "colorId": 1
+        }
+    },
+    {
+        "title": "MCQ-1",
+        "groupId": "CMSC351-0101,0201,0301:   Algorithms-Spring 2025 immortal/tjiang1",
+        "id": 7123786,
+        "start": "2025-02-08T04:59:58Z",
+        "end": "2025-02-08T04:59:59Z",
+        "backgroundColor": "#ff887c",
+        "extendedProps": {
+            "colorId": 4
+        }
+    },
+    {
+        "title": "MCQ-2",
+        "groupId": "CMSC351-0101,0201,0301:   Algorithms-Spring 2025 immortal/tjiang1",
+        "id": 7127753,
+        "start": "2025-02-15T04:59:58Z",
+        "end": "2025-02-15T04:59:59Z",
+        "backgroundColor": "#ff887c",
+        "extendedProps": {
+            "colorId": 4
+        }
+    },
+    {
+        "title": "MCQ-3",
+        "groupId": "CMSC351-0101,0201,0301:   Algorithms-Spring 2025 immortal/tjiang1",
+        "id": 7137533,
+        "start": "2025-03-01T04:59:58Z",
+        "end": "2025-03-01T04:59:59Z",
+        "backgroundColor": "#ff887c",
+        "extendedProps": {
+            "colorId": 4
+        }
+    },
+    {
+        "title": "MCQ-4",
+        "groupId": "CMSC351-0101,0201,0301:   Algorithms-Spring 2025 immortal/tjiang1",
+        "id": 7142185,
+        "start": "2025-03-08T04:59:58Z",
+        "end": "2025-03-08T04:59:59Z",
+        "backgroundColor": "#ff887c",
+        "extendedProps": {
+            "colorId": 4
+        }
+    },
+    {
+        "title": "MCQ-5",
+        "groupId": "CMSC351-0101,0201,0301:   Algorithms-Spring 2025 immortal/tjiang1",
+        "id": 7151706,
+        "start": "2025-03-29T03:59:58Z",
+        "end": "2025-03-29T03:59:59Z",
+        "backgroundColor": "#ff887c",
+        "extendedProps": {
+            "colorId": 4
+        }
+    },
+    {
+        "title": "MCQ-6",
+        "groupId": "CMSC351-0101,0201,0301:   Algorithms-Spring 2025 immortal/tjiang1",
+        "id": 7160834,
+        "start": "2025-04-12T03:59:58Z",
+        "end": "2025-04-12T03:59:59Z",
+        "backgroundColor": "#ff887c",
+        "extendedProps": {
+            "colorId": 4
+        }
+    },
+    {
+        "title": "MCQ-7",
+        "groupId": "CMSC351-0101,0201,0301:   Algorithms-Spring 2025 immortal/tjiang1",
+        "id": 7165595,
+        "start": "2025-04-19T03:59:58Z",
+        "end": "2025-04-19T03:59:59Z",
+        "backgroundColor": "#ff887c",
+        "extendedProps": {
+            "colorId": 4
+        }
+    },
+    {
+        "title": "MCQ-8",
+        "groupId": "CMSC351-0101,0201,0301:   Algorithms-Spring 2025 immortal/tjiang1",
+        "id": 7170425,
+        "start": "2025-04-26T03:59:58Z",
+        "end": "2025-04-26T03:59:59Z",
+        "backgroundColor": "#ff887c",
+        "extendedProps": {
+            "colorId": 4
+        }
+    },
+    {
+        "title": "MCQ-9",
+        "groupId": "CMSC351-0101,0201,0301:   Algorithms-Spring 2025 immortal/tjiang1",
+        "id": 7173284,
+        "start": "2025-05-02T03:59:58Z",
+        "end": "2025-05-02T03:59:59Z",
+        "backgroundColor": "#ff887c",
+        "extendedProps": {
+            "colorId": 4
+        }
+    },
+    {
+        "title": "MCQ-10",
+        "groupId": "CMSC351-0101,0201,0301:   Algorithms-Spring 2025 immortal/tjiang1",
+        "id": 7173288,
+        "start": "2025-05-06T03:59:58Z",
+        "end": "2025-05-06T03:59:59Z",
+        "backgroundColor": "#ff887c",
+        "extendedProps": {
+            "colorId": 4
+        }
+    },
+    {
+        "title": "MCQ-11",
+        "groupId": "CMSC351-0101,0201,0301:   Algorithms-Spring 2025 immortal/tjiang1",
+        "id": 7173294,
+        "start": "2025-05-08T03:59:58Z",
+        "end": "2025-05-08T03:59:59Z",
+        "backgroundColor": "#ff887c",
+        "extendedProps": {
+            "colorId": 4
+        }
+    },
+    {
+        "title": "MCQ-12",
+        "groupId": "CMSC351-0101,0201,0301:   Algorithms-Spring 2025 immortal/tjiang1",
+        "id": 7173319,
+        "start": "2025-05-10T03:59:58Z",
+        "end": "2025-05-10T03:59:59Z",
+        "backgroundColor": "#ff887c",
+        "extendedProps": {
+            "colorId": 4
+        }
+    },
+    {
+        "title": "MCQ-13",
+        "groupId": "CMSC351-0101,0201,0301:   Algorithms-Spring 2025 immortal/tjiang1",
+        "id": 7173322,
+        "start": "2025-05-13T03:59:58Z",
+        "end": "2025-05-13T03:59:59Z",
+        "backgroundColor": "#ff887c",
+        "extendedProps": {
+            "colorId": 4
+        }
+    },
+    {
+        "title": "homework-1",
+        "groupId": "CMSC351-0101,0201,0301:   Algorithms-Spring 2025 immortal/tjiang1",
+        "id": 7112845,
+        "start": "2025-02-07T04:58:59Z",
+        "end": "2025-02-07T04:59:00Z",
+        "backgroundColor": "#ff887c",
+        "extendedProps": {
+            "colorId": 4
+        }
+    },
+    {
+        "title": "homework-2",
+        "groupId": "CMSC351-0101,0201,0301:   Algorithms-Spring 2025 immortal/tjiang1",
+        "id": 7125041,
+        "start": "2025-02-14T04:58:59Z",
+        "end": "2025-02-14T04:59:00Z",
+        "backgroundColor": "#ff887c",
+        "extendedProps": {
+            "colorId": 4
+        }
+    },
+    {
+        "title": "homework-3",
+        "groupId": "CMSC351-0101,0201,0301:   Algorithms-Spring 2025 immortal/tjiang1",
+        "id": 7126500,
+        "start": "2025-02-20T04:59:58Z",
+        "end": "2025-02-20T04:59:59Z",
+        "backgroundColor": "#ff887c",
+        "extendedProps": {
+            "colorId": 4
+        }
+    },
+    {
+        "title": "homework-4",
+        "groupId": "CMSC351-0101,0201,0301:   Algorithms-Spring 2025 immortal/tjiang1",
+        "id": 7135227,
+        "start": "2025-03-07T04:58:59Z",
+        "end": "2025-03-07T04:59:00Z",
+        "backgroundColor": "#ff887c",
+        "extendedProps": {
+            "colorId": 4
+        }
+    },
+    {
+        "title": "homework-5",
+        "groupId": "CMSC351-0101,0201,0301:   Algorithms-Spring 2025 immortal/tjiang1",
+        "id": 7139777,
+        "start": "2025-03-14T03:58:59Z",
+        "end": "2025-03-14T03:59:00Z",
+        "backgroundColor": "#ff887c",
+        "extendedProps": {
+            "colorId": 4
+        }
+    },
+    {
+        "title": "homework-6",
+        "groupId": "CMSC351-0101,0201,0301:   Algorithms-Spring 2025 immortal/tjiang1",
+        "id": 7151717,
+        "start": "2025-03-28T03:58:59Z",
+        "end": "2025-03-28T03:59:00Z",
+        "backgroundColor": "#ff887c",
+        "extendedProps": {
+            "colorId": 4
+        }
+    },
+    {
+        "title": "homework-7",
+        "groupId": "CMSC351-0101,0201,0301:   Algorithms-Spring 2025 immortal/tjiang1",
+        "id": 7151718,
+        "start": "2025-04-03T03:58:59Z",
+        "end": "2025-04-03T03:59:00Z",
+        "backgroundColor": "#ff887c",
+        "extendedProps": {
+            "colorId": 4
+        }
+    },
+    {
+        "title": "homework-8",
+        "groupId": "CMSC351-0101,0201,0301:   Algorithms-Spring 2025 immortal/tjiang1",
+        "id": 7158714,
+        "start": "2025-04-18T03:58:59Z",
+        "end": "2025-04-18T03:59:00Z",
+        "backgroundColor": "#ff887c",
+        "extendedProps": {
+            "colorId": 4
+        }
+    },
+    {
+        "title": "homework-9",
+        "groupId": "CMSC351-0101,0201,0301:   Algorithms-Spring 2025 immortal/tjiang1",
+        "id": 7164858,
+        "start": "2025-04-25T03:58:59Z",
+        "end": "2025-04-25T03:59:00Z",
+        "backgroundColor": "#ff887c",
+        "extendedProps": {
+            "colorId": 4
+        }
+    },
+    {
+        "title": "homework-10",
+        "groupId": "CMSC351-0101,0201,0301:   Algorithms-Spring 2025 immortal/tjiang1",
+        "id": 7169437,
+        "start": "2025-05-01T03:58:59Z",
+        "end": "2025-05-01T03:59:00Z",
+        "backgroundColor": "#ff887c",
+        "extendedProps": {
+            "colorId": 4
+        }
+    },
+    {
+        "title": "homework-11",
+        "groupId": "CMSC351-0101,0201,0301:   Algorithms-Spring 2025 immortal/tjiang1",
+        "id": 7170427,
+        "start": "2025-05-16T03:58:59Z",
+        "end": "2025-05-16T03:59:00Z",
+        "backgroundColor": "#ff887c",
+        "extendedProps": {
+            "colorId": 4
+        }
+    },
+    {
+        "title": "exam-1",
+        "groupId": "CMSC351-0101,0201,0301:   Algorithms-Spring 2025 immortal/tjiang1",
+        "id": 7142242,
+        "start": "2025-02-20T04:58:59Z",
+        "end": "2025-02-20T04:59:00Z",
+        "backgroundColor": "#ff887c",
+        "extendedProps": {
+            "colorId": 4
+        }
+    },
+    {
+        "title": "exam-3",
+        "groupId": "CMSC351-0101,0201,0301:   Algorithms-Spring 2025 immortal/tjiang1",
+        "id": 7170697,
+        "start": "2025-05-03T03:58:59Z",
+        "end": "2025-05-03T03:59:00Z",
+        "backgroundColor": "#ff887c",
+        "extendedProps": {
+            "colorId": 4
+        }
+    },
+    {
+        "title": "fe",
+        "groupId": "CMSC351-0101,0201,0301:   Algorithms-Spring 2025 immortal/tjiang1",
+        "id": 7170698,
+        "start": "2025-05-18T03:58:59Z",
+        "end": "2025-05-18T03:59:00Z",
+        "backgroundColor": "#ff887c",
+        "extendedProps": {
+            "colorId": 4
+        }
+    },
+    {
+        "title": "HW1",
+        "groupId": "STAT401-0111,0112,0113: Applied Probability and Statistics II-Spring 2025 fsjiang",
+        "id": 7110103,
+        "start": "2025-02-10T04:58:59Z",
+        "end": "2025-02-10T04:59:00Z",
+        "backgroundColor": "#46d6db",
+        "extendedProps": {
+            "colorId": 7
+        }
+    },
+    {
+        "title": "HW2",
+        "groupId": "STAT401-0111,0112,0113: Applied Probability and Statistics II-Spring 2025 fsjiang",
+        "id": 7110104,
+        "start": "2025-02-19T04:59:58Z",
+        "end": "2025-02-19T04:59:59Z",
+        "backgroundColor": "#46d6db",
+        "extendedProps": {
+            "colorId": 7
+        }
+    },
+    {
+        "title": "HW3",
+        "groupId": "STAT401-0111,0112,0113: Applied Probability and Statistics II-Spring 2025 fsjiang",
+        "id": 7110105,
+        "start": "2025-02-26T04:59:58Z",
+        "end": "2025-02-26T04:59:59Z",
+        "backgroundColor": "#46d6db",
+        "extendedProps": {
+            "colorId": 7
+        }
+    },
+    {
+        "title": "HW4",
+        "groupId": "STAT401-0111,0112,0113: Applied Probability and Statistics II-Spring 2025 fsjiang",
+        "id": 7110106,
+        "start": "2025-03-05T04:59:58Z",
+        "end": "2025-03-05T04:59:59Z",
+        "backgroundColor": "#46d6db",
+        "extendedProps": {
+            "colorId": 7
+        }
+    },
+    {
+        "title": "HW5",
+        "groupId": "STAT401-0111,0112,0113: Applied Probability and Statistics II-Spring 2025 fsjiang",
+        "id": 7110107,
+        "start": "2025-03-26T03:59:58Z",
+        "end": "2025-03-26T03:59:59Z",
+        "backgroundColor": "#46d6db",
+        "extendedProps": {
+            "colorId": 7
+        }
+    },
+    {
+        "title": "HW6",
+        "groupId": "STAT401-0111,0112,0113: Applied Probability and Statistics II-Spring 2025 fsjiang",
+        "id": 7110108,
+        "start": "2025-04-02T03:59:58Z",
+        "end": "2025-04-02T03:59:59Z",
+        "backgroundColor": "#46d6db",
+        "extendedProps": {
+            "colorId": 7
+        }
+    },
+    {
+        "title": "HW7",
+        "groupId": "STAT401-0111,0112,0113: Applied Probability and Statistics II-Spring 2025 fsjiang",
+        "id": 7154877,
+        "start": "2025-04-09T03:58:59Z",
+        "end": "2025-04-09T03:59:00Z",
+        "backgroundColor": "#46d6db",
+        "extendedProps": {
+            "colorId": 7
+        }
+    },
+    {
+        "title": "HW8",
+        "groupId": "STAT401-0111,0112,0113: Applied Probability and Statistics II-Spring 2025 fsjiang",
+        "id": 7162187,
+        "start": "2025-04-23T03:59:58Z",
+        "end": "2025-04-23T03:59:59Z",
+        "backgroundColor": "#46d6db",
+        "extendedProps": {
+            "colorId": 7
+        }
+    },
+    {
+        "title": "HW9",
+        "groupId": "STAT401-0111,0112,0113: Applied Probability and Statistics II-Spring 2025 fsjiang",
+        "id": 7171853,
+        "start": "2025-05-07T03:59:58Z",
+        "end": "2025-05-07T03:59:59Z",
+        "backgroundColor": "#46d6db",
+        "extendedProps": {
+            "colorId": 7
+        }
+    },
+    {
+        "title": "HW10",
+        "groupId": "STAT401-0111,0112,0113: Applied Probability and Statistics II-Spring 2025 fsjiang",
+        "id": 7176896,
+        "start": "2025-05-14T03:58:59Z",
+        "end": "2025-05-14T03:59:00Z",
+        "backgroundColor": "#46d6db",
+        "extendedProps": {
+            "colorId": 7
+        }
+    },
+    {
+        "title": "Midterm 1",
+        "groupId": "STAT401-0111,0112,0113: Applied Probability and Statistics II-Spring 2025 fsjiang",
+        "id": 7110142,
+        "start": "2025-03-07T04:59:58Z",
+        "end": "2025-03-07T04:59:59Z",
+        "backgroundColor": "#46d6db",
+        "extendedProps": {
+            "colorId": 7
+        }
+    },
+    {
+        "title": "Midterm 2",
+        "groupId": "STAT401-0111,0112,0113: Applied Probability and Statistics II-Spring 2025 fsjiang",
+        "id": 7110143,
+        "start": "2025-04-25T03:59:58Z",
+        "end": "2025-04-25T03:59:59Z",
+        "backgroundColor": "#46d6db",
+        "extendedProps": {
+            "colorId": 7
+        }
+    },
+    {
+        "title": "Final",
+        "groupId": "STAT401-0111,0112,0113: Applied Probability and Statistics II-Spring 2025 fsjiang",
+        "id": 7110144,
+        "start": "2025-05-20T03:59:58Z",
+        "end": "2025-05-20T03:59:59Z",
+        "backgroundColor": "#46d6db",
+        "extendedProps": {
+            "colorId": 7
+        }
+    },
+    {
+        "title": "Extra credit: Guided read-through for MLE",
+        "groupId": "STAT401-0111,0112,0113: Applied Probability and Statistics II-Spring 2025 fsjiang",
+        "id": 7129649,
+        "start": "2025-02-22T04:59:58Z",
+        "end": "2025-02-22T04:59:59Z",
+        "backgroundColor": "#46d6db",
+        "extendedProps": {
+            "colorId": 7
+        }
+    },
+    {
+        "title": "Extra credit: Guided read-through for NHST",
+        "groupId": "STAT401-0111,0112,0113: Applied Probability and Statistics II-Spring 2025 fsjiang",
+        "id": 7156753,
+        "start": "2025-04-14T03:59:58Z",
+        "end": "2025-04-14T03:59:59Z",
+        "backgroundColor": "#46d6db",
+        "extendedProps": {
+            "colorId": 7
+        }
+    }
+]

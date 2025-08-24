@@ -1,0 +1,464 @@
+[
+    {
+        "title": "Week 1: Lab 1",
+        "groupId": "AOSC201-0101,0103: Weather and Climate Laboratory-Spring 2025 kgallmei",
+        "id": 7082814,
+        "start": null,
+        "end": null,
+        "backgroundColor": "#7ae7bf",
+        "extendedProps": {
+            "colorId": 2
+        }
+    },
+    {
+        "title": "Week 2: Lab 2",
+        "groupId": "AOSC201-0101,0103: Weather and Climate Laboratory-Spring 2025 kgallmei",
+        "id": 7082815,
+        "start": null,
+        "end": null,
+        "backgroundColor": "#7ae7bf",
+        "extendedProps": {
+            "colorId": 2
+        }
+    },
+    {
+        "title": "Week 4: Lab 4",
+        "groupId": "AOSC201-0101,0103: Weather and Climate Laboratory-Spring 2025 kgallmei",
+        "id": 7082816,
+        "start": null,
+        "end": null,
+        "backgroundColor": "#7ae7bf",
+        "extendedProps": {
+            "colorId": 2
+        }
+    },
+    {
+        "title": "Week 3: Lab 3",
+        "groupId": "AOSC201-0101,0103: Weather and Climate Laboratory-Spring 2025 kgallmei",
+        "id": 7082817,
+        "start": null,
+        "end": null,
+        "backgroundColor": "#7ae7bf",
+        "extendedProps": {
+            "colorId": 2
+        }
+    },
+    {
+        "title": "Week 5: Lab 5",
+        "groupId": "AOSC201-0101,0103: Weather and Climate Laboratory-Spring 2025 kgallmei",
+        "id": 7082818,
+        "start": null,
+        "end": null,
+        "backgroundColor": "#7ae7bf",
+        "extendedProps": {
+            "colorId": 2
+        }
+    },
+    {
+        "title": "Week 6: Lab 6",
+        "groupId": "AOSC201-0101,0103: Weather and Climate Laboratory-Spring 2025 kgallmei",
+        "id": 7082819,
+        "start": null,
+        "end": null,
+        "backgroundColor": "#7ae7bf",
+        "extendedProps": {
+            "colorId": 2
+        }
+    },
+    {
+        "title": "Week 7: Lab 7",
+        "groupId": "AOSC201-0101,0103: Weather and Climate Laboratory-Spring 2025 kgallmei",
+        "id": 7082820,
+        "start": null,
+        "end": null,
+        "backgroundColor": "#7ae7bf",
+        "extendedProps": {
+            "colorId": 2
+        }
+    },
+    {
+        "title": "Week 8: Lab 8",
+        "groupId": "AOSC201-0101,0103: Weather and Climate Laboratory-Spring 2025 kgallmei",
+        "id": 7082821,
+        "start": null,
+        "end": null,
+        "backgroundColor": "#7ae7bf",
+        "extendedProps": {
+            "colorId": 2
+        }
+    },
+    {
+        "title": "Week 9: Lab 9",
+        "groupId": "AOSC201-0101,0103: Weather and Climate Laboratory-Spring 2025 kgallmei",
+        "id": 7082822,
+        "start": null,
+        "end": null,
+        "backgroundColor": "#7ae7bf",
+        "extendedProps": {
+            "colorId": 2
+        }
+    },
+    {
+        "title": "Week  10: Lab 10",
+        "groupId": "AOSC201-0101,0103: Weather and Climate Laboratory-Spring 2025 kgallmei",
+        "id": 7082811,
+        "start": null,
+        "end": null,
+        "backgroundColor": "#7ae7bf",
+        "extendedProps": {
+            "colorId": 2
+        }
+    },
+    {
+        "title": "Week 11: Lab 11",
+        "groupId": "AOSC201-0101,0103: Weather and Climate Laboratory-Spring 2025 kgallmei",
+        "id": 7082812,
+        "start": null,
+        "end": null,
+        "backgroundColor": "#7ae7bf",
+        "extendedProps": {
+            "colorId": 2
+        }
+    },
+    {
+        "title": "Week 12: Lab 12",
+        "groupId": "AOSC201-0101,0103: Weather and Climate Laboratory-Spring 2025 kgallmei",
+        "id": 7082813,
+        "start": null,
+        "end": null,
+        "backgroundColor": "#7ae7bf",
+        "extendedProps": {
+            "colorId": 2
+        }
+    },
+    {
+        "title": "Test Your Knowledge: Juniors with 60-89 credits Cumulative Quiz",
+        "groupId": "CMNS Juniors (60-89crhr) - Preparing for your senior semesters",
+        "id": 6404241,
+        "start": null,
+        "end": null,
+        "backgroundColor": "#dbadff",
+        "extendedProps": {
+            "colorId": 3
+        }
+    },
+    {
+        "title": "exam-2",
+        "groupId": "CMSC351-0101,0201,0301:   Algorithms-Spring 2025 immortal/tjiang1",
+        "id": 7164963,
+        "start": null,
+        "end": null,
+        "backgroundColor": "#ff887c",
+        "extendedProps": {
+            "colorId": 4
+        }
+    },
+    {
+        "title": "Undergraduate Advising Suggestion Survey",
+        "groupId": "Computer Science Undergraduate Advising 2024-2025",
+        "id": 6999571,
+        "start": null,
+        "end": null,
+        "backgroundColor": "#fbd75b",
+        "extendedProps": {
+            "colorId": 5
+        }
+    },
+    {
+        "title": "Exam Totals",
+        "groupId": "Organization of Programming Languages",
+        "id": 7188007,
+        "start": null,
+        "end": null,
+        "backgroundColor": "#ffb878",
+        "extendedProps": {
+            "colorId": 6
+        }
+    },
+    {
+        "title": "Quiz Totals",
+        "groupId": "Organization of Programming Languages",
+        "id": 7188003,
+        "start": null,
+        "end": null,
+        "backgroundColor": "#ffb878",
+        "extendedProps": {
+            "colorId": 6
+        }
+    },
+    {
+        "title": "Project Totals",
+        "groupId": "Organization of Programming Languages",
+        "id": 7188004,
+        "start": null,
+        "end": null,
+        "backgroundColor": "#ffb878",
+        "extendedProps": {
+            "colorId": 6
+        }
+    },
+    {
+        "title": "Lecture Quiz Totals",
+        "groupId": "Organization of Programming Languages",
+        "id": 7188006,
+        "start": null,
+        "end": null,
+        "backgroundColor": "#ffb878",
+        "extendedProps": {
+            "colorId": 6
+        }
+    },
+    {
+        "title": "Extra Credit",
+        "groupId": "Organization of Programming Languages",
+        "id": 7188005,
+        "start": null,
+        "end": null,
+        "backgroundColor": "#ffb878",
+        "extendedProps": {
+            "colorId": 6
+        }
+    },
+    {
+        "title": "Lecture Quiz 2",
+        "groupId": "Organization of Programming Languages",
+        "id": 7127805,
+        "start": null,
+        "end": null,
+        "backgroundColor": "#ffb878",
+        "extendedProps": {
+            "colorId": 6
+        }
+    },
+    {
+        "title": "Lecture Quiz 3",
+        "groupId": "Organization of Programming Languages",
+        "id": 7133106,
+        "start": null,
+        "end": null,
+        "backgroundColor": "#ffb878",
+        "extendedProps": {
+            "colorId": 6
+        }
+    },
+    {
+        "title": "Lecture Quiz 4",
+        "groupId": "Organization of Programming Languages",
+        "id": 7140221,
+        "start": null,
+        "end": null,
+        "backgroundColor": "#ffb878",
+        "extendedProps": {
+            "colorId": 6
+        }
+    },
+    {
+        "title": "Lecture Quiz 5",
+        "groupId": "Organization of Programming Languages",
+        "id": 7140222,
+        "start": null,
+        "end": null,
+        "backgroundColor": "#ffb878",
+        "extendedProps": {
+            "colorId": 6
+        }
+    },
+    {
+        "title": "Lecture Quiz 7",
+        "groupId": "Organization of Programming Languages",
+        "id": 7154676,
+        "start": null,
+        "end": null,
+        "backgroundColor": "#ffb878",
+        "extendedProps": {
+            "colorId": 6
+        }
+    },
+    {
+        "title": "Lecture Quiz 8",
+        "groupId": "Organization of Programming Languages",
+        "id": 7171259,
+        "start": null,
+        "end": null,
+        "backgroundColor": "#ffb878",
+        "extendedProps": {
+            "colorId": 6
+        }
+    },
+    {
+        "title": "Lecture Quiz 10",
+        "groupId": "Organization of Programming Languages",
+        "id": 7171261,
+        "start": null,
+        "end": null,
+        "backgroundColor": "#ffb878",
+        "extendedProps": {
+            "colorId": 6
+        }
+    },
+    {
+        "title": "Quiz 1",
+        "groupId": "Organization of Programming Languages",
+        "id": 7140154,
+        "start": null,
+        "end": null,
+        "backgroundColor": "#ffb878",
+        "extendedProps": {
+            "colorId": 6
+        }
+    },
+    {
+        "title": "Quiz 2",
+        "groupId": "Organization of Programming Languages",
+        "id": 7146239,
+        "start": null,
+        "end": null,
+        "backgroundColor": "#ffb878",
+        "extendedProps": {
+            "colorId": 6
+        }
+    },
+    {
+        "title": "Quiz 3",
+        "groupId": "Organization of Programming Languages",
+        "id": 7171256,
+        "start": null,
+        "end": null,
+        "backgroundColor": "#ffb878",
+        "extendedProps": {
+            "colorId": 6
+        }
+    },
+    {
+        "title": "Quiz 4",
+        "groupId": "Organization of Programming Languages",
+        "id": 7179246,
+        "start": null,
+        "end": null,
+        "backgroundColor": "#ffb878",
+        "extendedProps": {
+            "colorId": 6
+        }
+    },
+    {
+        "title": "Project 1",
+        "groupId": "Organization of Programming Languages",
+        "id": 7133100,
+        "start": null,
+        "end": null,
+        "backgroundColor": "#ffb878",
+        "extendedProps": {
+            "colorId": 6
+        }
+    },
+    {
+        "title": "Project 2",
+        "groupId": "Organization of Programming Languages",
+        "id": 7140224,
+        "start": null,
+        "end": null,
+        "backgroundColor": "#ffb878",
+        "extendedProps": {
+            "colorId": 6
+        }
+    },
+    {
+        "title": "Project 3",
+        "groupId": "Organization of Programming Languages",
+        "id": 7149417,
+        "start": null,
+        "end": null,
+        "backgroundColor": "#ffb878",
+        "extendedProps": {
+            "colorId": 6
+        }
+    },
+    {
+        "title": "Project 4",
+        "groupId": "Organization of Programming Languages",
+        "id": 7171257,
+        "start": null,
+        "end": null,
+        "backgroundColor": "#ffb878",
+        "extendedProps": {
+            "colorId": 6
+        }
+    },
+    {
+        "title": "Project 5",
+        "groupId": "Organization of Programming Languages",
+        "id": 7171258,
+        "start": null,
+        "end": null,
+        "backgroundColor": "#ffb878",
+        "extendedProps": {
+            "colorId": 6
+        }
+    },
+    {
+        "title": "Project 6",
+        "groupId": "Organization of Programming Languages",
+        "id": 7179247,
+        "start": null,
+        "end": null,
+        "backgroundColor": "#ffb878",
+        "extendedProps": {
+            "colorId": 6
+        }
+    },
+    {
+        "title": "Project 7",
+        "groupId": "Organization of Programming Languages",
+        "id": 7179248,
+        "start": null,
+        "end": null,
+        "backgroundColor": "#ffb878",
+        "extendedProps": {
+            "colorId": 6
+        }
+    },
+    {
+        "title": "Exam 1",
+        "groupId": "Organization of Programming Languages",
+        "id": 7151329,
+        "start": null,
+        "end": null,
+        "backgroundColor": "#ffb878",
+        "extendedProps": {
+            "colorId": 6
+        }
+    },
+    {
+        "title": "Exam 2",
+        "groupId": "Organization of Programming Languages",
+        "id": 7171262,
+        "start": null,
+        "end": null,
+        "backgroundColor": "#ffb878",
+        "extendedProps": {
+            "colorId": 6
+        }
+    },
+    {
+        "title": "Final Exam",
+        "groupId": "Organization of Programming Languages",
+        "id": 7180235,
+        "start": null,
+        "end": null,
+        "backgroundColor": "#ffb878",
+        "extendedProps": {
+            "colorId": 6
+        }
+    },
+    {
+        "title": "Total Score",
+        "groupId": "STAT401-0111,0112,0113: Applied Probability and Statistics II-Spring 2025 fsjiang",
+        "id": 7185687,
+        "start": null,
+        "end": null,
+        "backgroundColor": "#46d6db",
+        "extendedProps": {
+            "colorId": 7
+        }
+    }
+]

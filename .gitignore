@@ -7,8 +7,7 @@ __pycache__/
 client_id.json
 
 #User sensitive information
-token.json
-credential.json
+service_account_key.json
 
 #Virtual environment
 .venv

@@ -5,8 +5,12 @@ Objective: Get a user's Canvas instructure API token to access their courses, as
 discussions, and quizzes and imports it to Google Calendar
 """
 
+import json
 import requests
-from datetime import datetime, timezone
+
+from datetime import datetime, timedelta
+from dateutil import tz
+from typing import Tuple, List, Dict
 
 class CanvasAPI:
     def __init__(self, access_token = None, base_url = None):
@@ -18,6 +22,7 @@ class CanvasAPI:
         if not base_url:
             raise ValueError("No Canvas URL")
         
+        self._localtz = tz.tzlocal()
         self._access_token = access_token
         self._base_url = f"https://{base_url}"
 
@@ -110,10 +115,20 @@ class CanvasAPI:
     assignment name, course name, assignment id, and start and end date. Returns a list of dicts used to add events
     into the FullCalendar implementation
     """
-    def get_assignments(self):
+    def get_assignments(self) -> Tuple[List[Dict], List[Dict]]:
+        #Hold a tuple of list of assignments with dates and assignments without dates in that order
+        self._current_assignments = tuple()
+        assignments_with_date = []
+        assignments_without_date = []
+
+        #Course colors
+        bgColors = ["#a4bdfc", "#7ae7bf", "#dbadff", "#ff887c", "#fbd75b", 
+                    "#ffb878", "#46d6db", "#e1e1e1", "#5484ed", "#51b749",
+                    "#dc2127"]
+        numCourse = 0
+
         #Loop through each course in _current_courses
         for course in self._current_courses:
-            print(course["id"])
             assignments  = self._get_request(
                 f"courses/{course['id']}/assignments",
                 params = {
@@ -121,19 +136,55 @@ class CanvasAPI:
                 }
             )
 
+            courseColor = bgColors[numCourse]
+
             #Get course name, title, due date, and description for each assignment
             #Name matches event object for FullCalendar.io import
             for assignment in assignments:
+                #Convert Canvas assignment time (Default UTC) into the users
+                #local timezone
+                has_due_date = False
+                assignment_local_time = None
+                assignment_time_end = None
+                assignment_time_start = None
+
+                #Convert timezones if due_date exists
+                if assignment.get("due_at"):
+                    assignment_local_time = assignment.get("due_at")
+                    assignment_time_end = assignment_local_time
+                    assignment_time_start = ((datetime.strptime(assignment_local_time, "%Y-%m-%dT%H:%M:%SZ") - 
+                     timedelta(seconds=1)).strftime("%Y-%m-%dT%H:%M:%SZ"))
+                    has_due_date = True
+                    
+
+                #Assignment dict to convert into Fullcalendar Event object
                 assign_date = {
                     "title": assignment.get("name"),
                     "groupId": course["name"],
                     "id": assignment.get("id"),
-                    #Set to datetime.now(timezone.utc).isoformat()
-                    "start": "2025-01-12T00:00:00Z",
-                    "end": assignment.get("due_at"),
+                    "start": assignment_time_start,
+                    "end": assignment_time_end,
+                    "backgroundColor": courseColor,
+                    "extendedProps":{
+                        "colorId": numCourse + 1
+                    }
                 }
+                
+                #Check for due date
+                if has_due_date:
+                    assignments_with_date.append(assign_date)
+                else:
+                    assignments_without_date.append(assign_date)
 
-                #Holds all data for course assignments
-                self._current_assignments.append(assign_date)
+            numCourse += 1
+
+        #Tuple of all assignments
+        self._current_assignments = (assignments_with_date, assignments_without_date)
+
+        #Export assignments into json files
+        with open("courses_with_date.json", "w") as json_file:
+            json.dump(assignments_with_date, json_file, indent=4)
+        with open("courses_without_date.json", "w") as json_file:
+            json.dump(assignments_without_date, json_file, indent=4)
 
         return self._current_assignments

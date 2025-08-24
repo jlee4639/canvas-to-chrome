@@ -1,41 +1,33 @@
 {% extends "base.html" %}
 
 {% block content %}
-{% if canvas %}
-<div id="canvas_assignments" data-info='{{canvas|tojson}}'></div>
-{% endif %}
-
-<div class="container">
-    <pre>{{canvas}}</pre>
-    <h1>Import your Canvas Calendar</h1>
+<div class="import_container">
+    <header>
+        <h1 class="heading">Import your Canvas Assignments</h1>
+    </header>
     
+    <div class="content_area">
     <form action="" method="post" novalidate>
-        {{form.hidden_tag()}}
+        {{ import_form.hidden_tag() }}
         <p>
-            {{ form.canvas_access_token.label }}
-            {{ form.canvas_access_token(size=64) }}
-            {% for error in form.canvas_access_token.error %}
-            <span style="color: red;">[{{ error }}]</span>
+            {{ import_form.canvas_access_token.label }}
+            {{ import_form.canvas_access_token(size=64, class="form_input", placeholder="ex. 12345~AbCdEfGhIjKlMnOpQrStUvWxYz0987654321abcdefghijk") }}
+            {% for error in import_form.canvas_access_token.errors %}
+            <span style="color: red;" class="error">[{{ error }}]</span>
             {% endfor %}
         </p>
 
         <p>
-            {{ form.canvas_url.label }}
-            {{ form.canvas_url(size=64) }}
-            {% for error in form.canvas_url.error %}
-            <span style="color: red;">[{{ error }}]</span>
+            {{ import_form.canvas_url.label }}
+            {{ import_form.canvas_url(size=64, class="form_input", placeholder="ex. umd.instructure.com") }}
+            {% for error in import_form.canvas_url.errors %}
+            <span style="color: red;" class="error">[{{ error }}]</span>
             {% endfor %}
         </p>
         <p>
-            {{ form.submit() }}
+            {{ import_form.submit() }}
         </p>
-
-
-        <div id='calendar'></div>
     </form>
+    </div>
 </div>
-
-<!-- Import FullCalendar to visualize and manipulate Canvas Calendar.-->
-<script src='https://cdn.jsdelivr.net/npm/fullcalendar@6.1.19/index.global.min.js'></script>
-<script src="{{url_for('static', filename='main.js')}}" defer></script>
 {% endblock %}

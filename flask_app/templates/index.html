@@ -1,8 +1,105 @@
 {% extends "base.html" %}
 
 {% block content %}
-<div>
-    <h1>Welcome to my Website!</h1>
-    <p>Write what the website is about here</p>
+<script src="{{url_for('static', filename='homepage.js')}}" defer></script>
+<div class="homepage">
+    <header>
+        <h1 class="heading">Canvas to Google Calendar</h1>
+    </header>
+    <div class="content_area">
+    <ul>
+        <li>
+            <div class="li_divider">
+                <div class="text"> 
+                    First you want to go the the homepage on your institutions canvas page and click on account > settings
+                </div>
+                <img src="{{url_for('static', filename='media/import_1_still.png')}}" alt="Canvas Settings" data-id="1">
+            </div>
+        </li>
+        <li>
+            <div class="li_divider">
+                    <div class="text"> 
+                        In the Approved Integrations section, create a new access token.
+                        Note that after you create the token, you won't be able to reaccess the token code so
+                        make sure to copy it down/save it somewhere safe.
+                    </div>
+                <img src="{{url_for('static', filename='media/import_2.png')}}" alt="Canvas Settings">
+            </div>
+        </li>
+        <li>
+            <div>
+                <div class="text"> 
+                    Click <a href="{{url_for('canvas_import')}}">here</a> and fill out the form with your
+                    instruction host url (e.g. umd.instructure.com) and the canvas token you created. It may take a while to 
+                    be redirected to the export page
+                </div>
+            </div>
+        </li>
+        <li>
+            <div class="text"> 
+                If successful, you will be redirected to the export page with a mock calendar with assignment only from courses that you
+                have favorited.
+            </div>
+        </li>
+        <li>
+            <div class="li_divider">
+                <div>
+                    <div class="text"> 
+                        Now go to <a href="https://console.cloud.google.com/">Google Cloud Console</a> and 
+                        create a project (or select an existing one).
+                    </div>
+                </div>
+                <img src="{{url_for('static', filename='media/import_3_still.png')}}" alt="Canvas Settings" data-id="3">
+            </div>
+        </li>
+        <li>
+            <div class="li_divider">
+                <div class="text"> 
+                    In the dropdown menu, go to APIs & Services > Library > and Enable the Google Calendar API
+                </div>
+                <img src="{{url_for('static', filename='media/import_4_still.png')}}" alt="Canvas Settings" data-id="4">
+            </div>
+        </li>
+        <li>
+            <div class="li_divider">
+                <div class="text"> 
+                    Then on the left bar, go to Credentials > Create Credentials > Create Service account. Then
+                    enter a name for the service account and press done (Permissions and Principle with Access options are not relevant)
+                </div>
+                <img src="{{url_for('static', filename='media/import_5_still.png')}}" alt="Canvas Settings" data-id="5">
+            </div>
+        </li>
+        <li>
+            <div class="li_divider">
+                <div class="text"> 
+                    Click on the service account > Go to the Keys tab > Add key in JSON, save it on your computer and copy the service account email
+                </div>
+                <img src="{{url_for('static', filename='media/import_6_still.png')}}" alt="" data-id="6">
+            </div>
+        </li>
+        <li>
+            <div class="li_divider">
+                <div class="text"> 
+                    In your Google Calendar, copy the calendar id you want to export the assignments into by going into
+                    Settings > Pick the Calendar on the left bar > In the share with section, paste the service account gmail >
+                    In Integrate Calendar, copy the Calendar ID.
+                </div>
+                <img src="{{url_for('static', filename='media/import_7_still.png')}}" alt="" data-id="7">
+            </div>
+        </li>
+        <li>
+            <div class="text"> 
+                On the Canvas Export page, paste the Calendar Id email and select the service account key file and submit. It may
+                take a few seconds to export the assignments and be redirected
+            </div>
+        </li>
+        <li>
+            <div class="text"> 
+                If done correctly, your assignments will show up on your Google Calendar. Note that since Google Calendar events 
+                need a start and end date, the assignments will show up from (end time - 1 second) to end time.
+            </div>
+        </li>
+    </ul>
+    </div>
 </div>
 {% endblock %}
