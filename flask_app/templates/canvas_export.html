@@ -6,9 +6,34 @@
         <h1 class="heading">Export Your Canvas Assignments</h1>
     </header>
 
-    <div class="content_area">
 <!--  Check if canvas_assignments was retrieved -->
 {% if canvas_assignments %}
+<div id="calendar_area">
+    <div id='calendar'></div>
+    <div id="undated_container">
+        <h1>Undated Events</h1>
+        <div id="undated_event_list"></div>
+    </div>
+
+    <!-- Create popup for user to input calendar event info-->
+    <dialog id="event_modal">
+        <form method="dialog" id="modal-form">
+            <label>Enter Title: <input type="text" name="title"></label>
+            <label>Enter Start Date: <input type="text" name="start-date" placeholder="e.g. 04:59:59"></label>
+            <label>Enter End Date: <input type="text" name="end-date" placeholder="e.g. 04:59:59"></label>
+            <p>Choose event color:</p>
+            <div id="color-buttons">
+            </div>
+            <div id="buttons">
+                <button id="submit">Submit</button>
+                <button id="exit">Close</button>
+            </div>
+            <input type="hidden" id="hidden_color_id" name="hidden_color_id">
+        </form>
+    </dialog>
+</div>
+
+<div class="content_area">
     <div id="assignments_dated" data-info='{{ canvas_assignments[0]|tojson }}'></div>
     <div id="assignments_undated" data-info='{{ canvas_assignments[1]|tojson }}'></div>
     
@@ -31,20 +56,17 @@
             {% endfor %}
         </p>
 
-        <!-- Retrieve Fullcalendar.io events -->
         <p>
+            <!-- Retrieve Fullcalendar.io events -->
             {{ export_form.fullcalendar_events }}
-        </p>
 
-        <p>
             {{ export_form.submit() }}
         </p>
     </form>
-
-    <div id='calendar'></div>
+</div>
     <!-- Import FullCalendar to visualize and manipulate Canvas Calendar.-->
     <script src='https://cdn.jsdelivr.net/npm/fullcalendar@6.1.19/index.global.min.js'></script>
-    <script src="{{url_for('static', filename='calendar.js')}}" defer></script>
+    <script type='module' src="{{url_for('static', filename='calendar.js')}}" defer></script>
 <!-- Redirect users back to the homepage -->
 {% else %}
     <h1>No user information was obtained, return back to <a href="{{url_for('index')}}">homepage</a></h1>

@@ -1,7 +1,5 @@
 from canvas_api import CanvasAPI
 from google_api import GoogleCalendarRequest
-import dateutil
-import json
 
 #Run flask app
 from flask_app import app

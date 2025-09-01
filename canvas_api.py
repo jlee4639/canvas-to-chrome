@@ -5,7 +5,6 @@ Objective: Get a user's Canvas instructure API token to access their courses, as
 discussions, and quizzes and imports it to Google Calendar
 """
 
-import json
 import requests
 
 from datetime import datetime, timedelta
@@ -123,7 +122,7 @@ class CanvasAPI:
 
         #Course colors
         bgColors = ["#a4bdfc", "#7ae7bf", "#dbadff", "#ff887c", "#fbd75b", 
-                    "#ffb878", "#46d6db", "#e1e1e1", "#5484ed", "#51b749",
+                    "#ffb878", "#46d6db", "#A9A9A9", "#5484ed", "#51b749",
                     "#dc2127"]
         numCourse = 0
 
@@ -180,11 +179,5 @@ class CanvasAPI:
 
         #Tuple of all assignments
         self._current_assignments = (assignments_with_date, assignments_without_date)
-
-        #Export assignments into json files
-        with open("courses_with_date.json", "w") as json_file:
-            json.dump(assignments_with_date, json_file, indent=4)
-        with open("courses_without_date.json", "w") as json_file:
-            json.dump(assignments_without_date, json_file, indent=4)
 
         return self._current_assignments

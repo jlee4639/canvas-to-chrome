@@ -8,6 +8,8 @@ client_id.json
 
 #User sensitive information
 service_account_key.json
+courses_with_date.json
+courses_without_date.json
 
 #Virtual environment
 .venv
